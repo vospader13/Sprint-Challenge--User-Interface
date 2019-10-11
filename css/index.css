@@ -28,6 +28,23 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+nav {
+    margin: center;
+    /* width: 60%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    text-emphasis: none;
+    margin-bottom: 4%; 
+}
+.jumbo {
+    display: flex;
+    align-content: center;
+    max-width: 100%;
+    margin-bottom: 4%;
+}
 body {
 	line-height: 1;
 }
