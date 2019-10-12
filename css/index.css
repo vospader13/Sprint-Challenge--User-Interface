@@ -150,9 +150,22 @@ p {
     padding-right: 0;
 }
 
+
 footer {
     width: 100%;
     background: black;
+    animation-duration: 1.5s;
+    animation-name: things;
+    animation-iteration-count: infinite;
+}
+
+@keyframes things {
+    from {background-color: black;}
+    to {background-color: rgb(88, 80, 80);}
+}
+@keyframes btnthings {
+    from {background-color: white;}
+    to {background-color: whitesmoke;}
 }
 
 footer nav {
@@ -162,18 +175,15 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
-@keyframes animate {
-    from {background-color:black;}
-    to {background-color: green;}
-    to {background-color: dodgerblue;}
-    to {background-color: firebrick;}
-    
+   
+
 }
 .box1 {
     background-color: teal;
@@ -230,6 +240,9 @@ button {
     border-radius: 25px;
     padding: 2% 10%;
     border: 2px solid black;
+    animation-duration: .1ms;
+    animation-name: btnthings;
+    animation-iteration-count: infinite;
 
 }
 .innerleft {
