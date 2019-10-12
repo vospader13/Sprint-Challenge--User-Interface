@@ -168,7 +168,13 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
+@keyframes animate {
+    from {background-color:black;}
+    to {background-color: green;}
+    to {background-color: dodgerblue;}
+    to {background-color: firebrick;}
+    
+}
 .box1 {
     background-color: teal;
 }
@@ -224,6 +230,7 @@ button {
     border-radius: 25px;
     padding: 2% 10%;
     border: 2px solid black;
+
 }
 .innerleft {
     margin: 4% 8% 8% 0%;   
