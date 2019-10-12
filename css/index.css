@@ -200,4 +200,44 @@ footer nav a {
     background-color: dodgerblue;
 }
 
+.line {
+    display: flex;
+    border: 1px dashed black;
+    margin: 4% 0% 4% 0%;
+}
+.top-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
 
+.top-middle img {
+    margin-bottom: 3%;
+}
+
+button {
+    margin-top: 4%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    padding: 2% 10%;
+    border: 2px solid black;
+}
+.innerleft {
+    margin: 4% 8% 8% 0%;   
+}
+.innerright {
+    margin: 4% 8% 8% 0%;
+}
+.bottom-middle {
+    display: flex;
+    justify-content: center;
+}
+.bottom-middle img {
+    margin-bottom: 3%;
+}
+footer {
+    margin-top: 4%;
+}
