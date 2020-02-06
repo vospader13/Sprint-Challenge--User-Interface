@@ -28,6 +28,28 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+nav {
+    margin: center;
+    /* width: 60%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    text-emphasis: none;
+    margin-bottom: 4%;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.jumbo {
+    display: flex;
+    align-content: center;
+    max-width: 100%;
+    margin-bottom: 4%;
+}
 body {
 	line-height: 1;
 }
@@ -95,6 +117,8 @@ p {
     margin-bottom: 0;
 }
 
+
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +128,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -126,9 +150,22 @@ p {
     padding-right: 0;
 }
 
+
 footer {
     width: 100%;
     background: black;
+    animation-duration: 1.5s;
+    animation-name: things;
+    animation-iteration-count: infinite;
+}
+
+@keyframes things {
+    from {background-color: black;}
+    to {background-color: rgb(88, 80, 80);}
+}
+@keyframes btnthings {
+    from {background-color: white;}
+    to {background-color: whitesmoke;}
 }
 
 footer nav {
@@ -138,9 +175,87 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+   
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
+
+.line {
+    display: flex;
+    border: 1px dashed black;
+    margin: 4% 0% 4% 0%;
+}
+.top-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.top-middle img {
+    margin-bottom: 3%;
+}
+
+button {
+    margin-top: 4%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    padding: 2% 10%;
+    border: 2px solid black;
+    animation-duration: .1ms;
+    animation-name: btnthings;
+    animation-iteration-count: infinite;
+
+}
+.innerleft {
+    margin: 4% 8% 8% 0%;   
+}
+.innerright {
+    margin: 4% 8% 8% 0%;
+}
+.bottom-middle {
+    display: flex;
+    justify-content: center;
+}
+.bottom-middle img {
+    margin-bottom: 3%;
+}
+footer {
+    margin-top: 4%;
 }
